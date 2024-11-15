@@ -1,0 +1,9 @@
+{
+    "name": "abdelazizelhathout/design-patterns-php",
+    "autoload": {
+        "psr-4": {
+            "Abdelazizelhathout\\DesignPatternsPhp\\": "src/"
+        }
+    },
+    "require": {}
+}
