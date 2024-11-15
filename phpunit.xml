@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/bootstrap.php" colors="true" verbose="true">
-    <!-- Define test suites -->
+<phpunit bootstrap="vendor/autoload.php">
+    <!-- Define the test suite -->
     <testsuites>
-        <testsuite name="Project Test Suite">
-            <directory>./tests</directory>
+        <testsuite name="Design Patterns Test Suite">
+            <!-- Point to your tests directory -->
+            <directory>./tests/DesignPatterns</directory>
         </testsuite>
     </testsuites>
 
-    <!-- PHP configuration -->
-    <php>
-        <ini name="error_reporting" value="-1" />
-        <server name="APP_ENV" value="test" />
-    </php>
-
-    <!-- Code coverage -->
+    <!-- Include directories for code coverage (if needed) -->
     <coverage>
         <include>
-            <directory>./src</directory>
+            <directory suffix=".php">./src</directory> <!-- Adjust to point to your source code -->
         </include>
     </coverage>
 
-    <!-- Logging -->
+    <!-- Logging (coverage reports, etc.) -->
     <logging>
-        <log type="junit" target="build/logs/junit.xml"/>
-        <log type="coverage-html" target="build/coverage"/>
+        <log type="coverage-html" target="build/coverage-report" />
     </logging>
 </phpunit>
