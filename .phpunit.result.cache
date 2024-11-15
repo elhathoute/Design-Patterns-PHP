@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"Tests\\DesignPatterns\\SingletonTest\\SingletonTest::testCannotInstantiateDirectly":0.004}}
+{"version":1,"defects":[],"times":{"Tests\\DesignPatterns\\SingletonTest\\SingletonTest::testCannotInstantiateDirectly":0.001,"Tests\\DesignPatterns\\SingletonTest\\SingletonTest::testSingletonInstance":0.003,"Tests\\DesignPatterns\\SingletonTest\\SingletonTest::testCannotCloneInstance":0,"Tests\\DesignPatterns\\SingletonTest\\SingletonTest::testCannotDeserializeInstance":0.001}}
