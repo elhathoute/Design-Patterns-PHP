@@ -17,3 +17,4 @@ Chaque pattern est implémenté dans son propre dossier et inclut un fichier de 
 Pour utiliser ce projet, suivez les étapes ci-dessous :
 
 1. Clonez le dépôt :
+git clone https://github.com/elhathoute/Design-Patterns-PHP.git
