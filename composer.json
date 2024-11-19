@@ -1,6 +1,6 @@
 {
     "require": {
-        "php": "^8.3"
+        "php": "^8.2.23"
     },
     "name": "abdelazizelhathout/design-patterns-php",
     "autoload": {

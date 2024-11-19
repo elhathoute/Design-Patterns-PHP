@@ -3,7 +3,7 @@
         'name' => 'abdelazizelhathout/design-patterns-php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '64848768e2d666e360d4543bbb8c0b20352dd676',
+        'reference' => 'a1f7981277997f1ae816677cc7354fe134061b24',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'abdelazizelhathout/design-patterns-php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '64848768e2d666e360d4543bbb8c0b20352dd676',
+            'reference' => 'a1f7981277997f1ae816677cc7354fe134061b24',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
