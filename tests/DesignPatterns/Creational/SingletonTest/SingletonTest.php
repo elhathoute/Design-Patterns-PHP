@@ -1,9 +1,11 @@
 <?php
 
-namespace Tests\DesignPatterns\SingletonTest;
+namespace Tests\DesignPatterns\Creational\SingletonTest;
 
 use App\DesignPatterns\Creational\Singleton\Singleton;
 use PHPUnit\Framework\TestCase;
+use function Tests\DesignPatterns\SingletonTest\serialize;
+use function Tests\DesignPatterns\SingletonTest\unserialize;
 
 class SingletonTest extends TestCase
 {

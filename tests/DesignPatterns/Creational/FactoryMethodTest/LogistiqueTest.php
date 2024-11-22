@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\DesignPatterns\FactoryMethod;
+namespace Tests\DesignPatterns\Creational\FactoryMethodTest;
 
 use App\DesignPatterns\Creational\FactoryMethod\Bateau;
 use App\DesignPatterns\Creational\FactoryMethod\Camion;
