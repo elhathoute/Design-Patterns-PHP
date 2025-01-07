@@ -2,12 +2,12 @@
 
 namespace Tests\DesignPatterns\Creational\FactoryMethodTest;
 
-use App\DesignPatterns\Creational\FactoryMethod\Bateau;
-use App\DesignPatterns\Creational\FactoryMethod\Camion;
-use App\DesignPatterns\Creational\FactoryMethod\Logistique;
-use App\DesignPatterns\Creational\FactoryMethod\LogistiqueMaritime;
-use App\DesignPatterns\Creational\FactoryMethod\LogistiqueRoutiere;
-use App\DesignPatterns\Creational\FactoryMethod\Transport;
+use App\DesignPatterns\Creational\Factory\FactoryMethod\Bateau;
+use App\DesignPatterns\Creational\Factory\FactoryMethod\Camion;
+use App\DesignPatterns\Creational\Factory\FactoryMethod\Logistique;
+use App\DesignPatterns\Creational\Factory\FactoryMethod\LogistiqueMaritime;
+use App\DesignPatterns\Creational\Factory\FactoryMethod\LogistiqueRoutiere;
+use App\DesignPatterns\Creational\Factory\FactoryMethod\Transport;
 use App\exceptions\UnsupportedTransportException;
 use PHPUnit\Framework\TestCase;
 

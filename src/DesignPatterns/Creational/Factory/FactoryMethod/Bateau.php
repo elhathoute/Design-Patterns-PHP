@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DesignPatterns\Creational\FactoryMethod;
+namespace App\DesignPatterns\Creational\Factory\FactoryMethod;
 
 class Bateau extends Transport {
     public function livrer() {
