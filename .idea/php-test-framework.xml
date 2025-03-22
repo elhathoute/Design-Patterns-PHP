@@ -5,6 +5,7 @@
       <tool tool_name="PHPUnit">
         <cache>
           <versions>
+            <info id="Local/Users/abdelazizelhathout/Documents/PersonalWorks/Design-Patterns-PHP/vendor/autoload.php" version="11.4.3" />
             <info id="Local/vendor/autoload.php" version="11.4.3" />
           </versions>
         </cache>
